@@ -1,13 +1,11 @@
-html{
-  margin:400px;
-}
+
 body{
   font-size:13px;
   background-color:hsl(210, 46%, 95%);
   font-family:"Barlow Semi Condensed"; 
   font-weight:600;
   pointer-events: painted;
-  margin: 200px;
+  margin: 100px;
 }
 
 img{
