@@ -5,7 +5,7 @@ body{
   font-family:"Barlow Semi Condensed"; 
   font-weight:600;
   pointer-events: painted;
-  margin: 50px;
+  margin: 100px 10px 10px 100px;
 }
 
 img{
