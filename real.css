@@ -1,0 +1,280 @@
+html{
+  margin:0 auto;
+}
+body{
+  font-size:13px;
+  background-color:hsl(210, 46%, 95%);
+  font-family:"Barlow Semi Condensed"; 
+  font-weight:600;
+  pointer-events: painted;
+  margin: 200px;
+}
+
+img{
+  border-radius:50px;
+  margin-right:400px;
+  margin-top:0.5rem;
+  width:45px;
+  position:absolute;
+}
+
+.container{
+  display:grid;
+  height:100%;
+  column-gap:30px;
+  row-gap:30px;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: repeat(2,400px);
+  grid-template-areas: 
+  "d d d d d j k k k k k k"
+  "h h h h p p p p p p p p";
+}
+
+quote{
+  line-height:22px;
+  color:hsl(0, 0%, 81%);
+}
+.Daniel{
+  color:hsl(0, 0%, 100%);
+  background-color:hsl(263, 55%, 52%);
+  border-radius:10px;
+  padding:24px 34px 34px 34px;
+  margin-top:2px;
+  width: 600px;
+  height:20.9rem;
+  grid-area: d;
+
+}
+.Daniel>p{
+  font-size:22px;
+  margin-top:2rem;
+
+}
+.Daniel>quote{
+  font-size:15px; 
+  margin-top:70px;
+}
+.Daniel>img{
+  margin-top:20px;
+}
+.Dan-Name{
+  color:hsl(0, 0%, 100%);
+  margin-top:20px;
+}
+.Dan-Prof{
+  color:hsl(0, 0%, 81%);
+  margin-top:20px;
+}
+
+#content{
+  margin-left:70px;
+}
+
+.Jonathan{
+ background-color:hsl(217, 19%, 35%);
+ border-radius:10px;
+ padding:34px 44px 44px 44px;
+ margin-top:2px;
+ width: 310px;
+ height:19.7rem;
+ grid-area:j;
+ display:inline-block;
+}
+.Jonathan>quote{
+  font-size:20px;
+}
+.Jonathan>p{
+  font-size:27.5px;
+  color:hsl(0, 0%, 100%);
+}
+
+
+.Jon-Name{
+  color:hsl(0, 0%, 100%);
+}
+
+.Jon-Prof{
+  color:hsl(0, 0%, 81%);
+}
+.Jeanette{
+  background-color:hsl(0, 0%, 100%);
+  border-radius:10px;
+  padding:34px 34px 34px 34px;
+  width: 16rem;
+  height:17rem;
+  grid-row:10/-1;
+  grid-area: h;
+
+}
+
+.Jeanette>p{
+  font-size:25px;
+  color:#616060;
+}
+
+.Jeanette>quote{
+  font-size:15px;
+}
+.Jean-Name{
+  color:#616060;
+}
+.Jean-Prof{
+  color:hsl(0, 0%, 81%);
+}
+
+
+.Patrick{
+ background-color: hsl(219, 29%, 14%);
+ border-radius:10px;
+ padding:34px 34px 34px 34px;
+ margin-right:40rem;
+ width: 600px;
+ height:17rem;
+ grid-area:p;
+}
+.Patrick>p{
+  color:hsl(0, 0%, 100%);
+  font-size:22px;
+}
+
+.Patrick>quote{
+  font-size:15.2px;
+}
+.Patrick-Name{
+color:hsl(0, 0%, 100%);
+}
+.Patrick-Prof{
+  color:hsl(0, 0%, 81%);
+}
+.Kira{
+ background-color:hsl(0, 0%, 100%);
+ border-radius:10px;
+ padding:34px 34px 34px 34px;
+ margin-right:90rem;
+ width: 230px;
+ height:43.4rem;
+ grid-area:k;
+}
+.Kira>p{
+  font-size:25px;
+  color:#616060;
+}
+.Kira>quote{
+  font-size:14.5px;
+  
+}
+.Kira-Name{
+ color:#616060;
+}
+.Kira-Prof{
+  color:hsl(0, 0%, 81%);
+} 
+
+.attribution{
+  display:grid;
+  align-items:baseline;
+  margin-top:37px;
+}
+@media (min-width:1440px){
+  body{
+    font-size:13px;
+    background-color:hsl(210, 46%, 95%);
+    font-family:"Barlow Semi Condensed"; 
+    font-weight:600;
+    pointer-events: painted;
+    margin: 100px;
+  }
+  
+  .container{
+    display:grid;
+    height:100%;
+    column-gap:30px;
+    row-gap:30px;
+    grid-template-columns: repeat (12, 1fr);
+    grid-template-rows: repeat(2,400px);
+    grid-template-areas: 
+    "d d d d d j k k k k k k"
+    "h h h h p p p p p p p p";
+  }
+}
+
+@media(max-width: 375px){
+  body{
+    font-size:13px;
+    background-color:hsl(210, 46%, 95%);
+    font-family:"Barlow Semi Condensed"; 
+    font-weight:600;
+    pointer-events: painted;
+    margin: 100px;
+  }
+  
+  .container{
+    display:grid;
+    height:100%;
+    column-gap:30px;
+    row-gap:30px;
+    grid-template-columns: repeat (12, 1fr);
+    grid-template-rows: repeat(1,400px);
+    grid-template-areas: 
+    "d d d d d d d d d d d d"
+    "j j j j j j j j j j j j"
+    "h h h h h h h h h h h h"
+    "p p p p p p p p p p p p"
+    "k k k k k k k k k k k k" ;
+  }
+
+  .Daniel{
+    color:hsl(0, 0%, 100%);
+    background-color:hsl(263, 55%, 52%);
+    border-radius:10px;
+    padding:24px 34px 34px 34px;
+    margin-top:2px;
+    width: 300px;
+    height:34rem;
+    grid-area: d;
+  
+  }
+  
+   .Jonathan{
+   background-color:hsl(217, 19%, 35%);
+   border-radius:10px;
+   padding:34px 44px 44px 44px;
+   margin-top:200px;
+   width: 277px;
+   height:19.7rem;
+   grid-area:j;
+   
+  }
+  
+  .Jeanette{
+    background-color:hsl(0, 0%, 100%);
+    border-radius:10px;
+    padding:34px 34px 34px 34px;
+    width:300px;
+    height:15rem;
+    grid-row:10/-1;
+    grid-area: h;
+  
+  }
+  
+   .Patrick{
+   background-color: hsl(219, 29%, 14%);
+   border-radius:10px;
+   padding:34px 34px 34px 34px;
+   margin-right:40rem;
+   width: 300px;
+   height:27rem;
+   grid-area:p;
+  }
+  
+  .Kira{
+   background-color:hsl(0, 0%, 100%);
+   border-radius:10px;
+   padding:34px 34px 34px 34px;
+   margin-right:10rem;
+   width: 300px;
+   height:33rem;
+   grid-area:k;
+  }
+ 
+}
