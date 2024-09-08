@@ -1,11 +1,13 @@
-
+html{
+  margin: 100px -70px -70px;
+}
 body{
   font-size:13px;
   background-color:hsl(210, 46%, 95%);
   font-family:"Barlow Semi Condensed"; 
   font-weight:600;
   pointer-events: painted;
-  margin: 100px 10px 10px 100px;
+  margin: 200px;
 }
 
 img{
@@ -19,8 +21,8 @@ img{
 .container{
   display:grid;
   height:100%;
-  column-gap:30px;
-  row-gap:30px;
+  column-gap:10px;
+  row-gap:10px;
   grid-template-columns: repeat (12, 1fr);
   grid-template-rows: repeat(2,400px);
   grid-template-areas: 
@@ -64,7 +66,7 @@ quote{
   margin-top:20px;
 }
 
-#content{
+#Site-Content{
   margin-left:70px;
 }
 
@@ -148,7 +150,6 @@ color:hsl(0, 0%, 100%);
  background-color:hsl(0, 0%, 100%);
  border-radius:10px;
  padding:34px 34px 34px 34px;
- margin-right:90rem;
  width: 230px;
  height:43.4rem;
  grid-area:k;
@@ -275,4 +276,11 @@ color:hsl(0, 0%, 100%);
    grid-area:k;
   }
  
+}
+.attribution {
+  font-size:11px;
+  text-align:center;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
 }
